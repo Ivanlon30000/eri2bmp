@@ -3,8 +3,8 @@
 转换.eri文件为.bmp文件. (Convert .eri files to .bmp files.)
 
 ## 用法 Usage
-1. 下载 ericvt.exe . (Download ericvt.exe)
-下载地址(Download page): http://www.entis.jp/eridev/download/index.html
+1. 下载 ericvt.exe . (Download ericvt.exe)  
+[下载地址(Download page)](http://www.entis.jp/eridev/download/index.html)
 
 2. 创建 Eri2Bmp 类并调用成员函数 eris2bmps. (Instantiate class Eri2Bmp and invoke method eris2bmps)
 ```python
@@ -21,8 +21,8 @@ if __name__ == '__main__':
 
 ## 其他说明 Other Information
 + 构造函数参数 log (param 'log')
-参数 log 是 .log 文件的路径.  (The param 'log' defines the path of the .log file.)
+参数 log 是 .log 文件的路径.  (The param 'log' defines the path of the .log file.)  
 log 的缺省值是(The default vaule of 'log'): "Eri2Bmp_{}.log".format(time.strftime("%Y_%m_%d_%H_%M_%S")). 
 
-+ 成员函数 eris2bmps 的参数 workers (The param 'workers' of method 'eris2bmps)
++ 成员函数 eris2bmps 的参数 workers (The param 'workers' of method 'eris2bmps)  
 使用线程池 ThreadPoolExecutor 实现的多线程, workers 是最大线程. (Multithread implemented with ThreadPool Executor, where workers are the largest threads)
