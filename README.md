@@ -20,9 +20,8 @@ if __name__ == '__main__':
 ```
 
 ## 其他说明 Other Information
-+ 构造函数参数 ```log``` (param ```log```)
++ 构造函数参数 ```log``` (param ```log```)  
 参数 ```log``` 是 .log 文件的路径.  (The param ```log``` defines the path of the .log file.)  
 ```log``` 的缺省值是(The default vaule of ```log```): ```"Eri2Bmp_{}.log".format(time.strftime("%Y_%m_%d_%H_%M_%S"))```. 
-
 + 成员函数 ```eris2bmps``` 的参数 ```workers``` (The param ```workers``` of method ```eris2bmps```)  
 使用线程池 ```ThreadPoolExecutor``` 实现的多线程, ```workers``` 是最大线程. (Multithread implemented with ```ThreadPoolExecutor```, where ```workers``` is the largest threads)
